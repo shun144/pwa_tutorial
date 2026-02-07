@@ -16,26 +16,26 @@ export default defineConfig({
         short_name: "PWAApps",
         description: "PWAサンプルアプリ",
         theme_color: "#ffffff",
-        icons: [
-          {
-            src: "pwa-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-            purpose: "any", // ← これを追加
-          },
-          {
-            src: "pwa-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "any",
-          },
-          {
-            src: "pwa-512x512.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "maskable",
-          },
-        ],
+        // icons: [
+        //   {
+        //     src: "pwa-192x192.png",
+        //     sizes: "192x192",
+        //     type: "image/png",
+        //     purpose: "any", // ← これを追加
+        //   },
+        //   {
+        //     src: "pwa-512x512.png",
+        //     sizes: "512x512",
+        //     type: "image/png",
+        //     purpose: "any",
+        //   },
+        //   {
+        //     src: "pwa-512x512.png",
+        //     sizes: "512x512",
+        //     type: "image/png",
+        //     purpose: "maskable",
+        //   },
+        // ],
       },
     }),
   ],
